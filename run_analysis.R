@@ -1,6 +1,7 @@
 
 
 ## Download and unzip the dataset:
+  filename <- "getdata_dataset.zip"
   fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(fileURL, filename, mode="wb")
   unzip(filename) 
